@@ -32,10 +32,6 @@ def submit_data():
             tkinter.messagebox.showwarning(title="Error", message="You have not entered your number of courses")
         elif num_semesters == "":
             tkinter.messagebox.showwarning(title="Error", message="You have not entered your semester")
-        # if registration_status == "Not Registered":
-        #     registration_status = "Not registered"
-        # else:
-        #     registration_status = "Registered"
         else:
             insert(first_name, last_name, title, age, nationality, num_courses, num_semesters, registration_status, status)
             tkinter.messagebox.showinfo(title="Success", message="Student added successfully in table named DATA")

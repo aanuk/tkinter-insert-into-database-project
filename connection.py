@@ -2,9 +2,9 @@ import psycopg2
 def estd_connection():
     conn = psycopg2.connect(
         database = 'data',
-        user = 'postgres',
-        password = 'password',
-        host = '127.0.0.1',
+        user = '',
+        password = '',
+        host = '',
         port = 5432
     )
 
